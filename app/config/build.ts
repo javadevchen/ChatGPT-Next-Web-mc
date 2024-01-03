@@ -13,7 +13,7 @@ export const getBuildConfig = () => {
 
   const commitInfo = (() => {
     try {
-      const childProcess = require("child_process");
+      const childProcess = require("child_process"); 
       const commitDate: string = childProcess
         .execSync('git log -1 --format="%at000" --date=unix')
         .toString()
