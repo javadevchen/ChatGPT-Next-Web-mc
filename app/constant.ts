@@ -103,7 +103,7 @@ Latex inline: $x^2$
 Latex block: $$e=mc^2$$
 `;
 
-export const SUMMARIZE_MODEL = "gpt-3.5-turbo";
+export const SUMMARIZE_MODEL = "gpt-4o";
 
 export const KnowledgeCutOffDate: Record<string, string> = {
   default: "2021-09",
@@ -131,7 +131,7 @@ export const DEFAULT_MODELS = [
     },
   },
   // {
-  //   name: "gpt-3.5-turbo",
+  //   name: "gpt-4o",
   //   available: true,
   //   provider: {
   //     id: "openai",
