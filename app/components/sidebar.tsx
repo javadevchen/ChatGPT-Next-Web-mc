@@ -143,6 +143,11 @@ export function SideBar(props: { className?: string }) {
 
   useHotKey();
 
+  var currentDomain = window.location.hostname;
+
+// 输出当前域名
+  console.log(currentDomain);
+
   return (
     <div
       className={`${styles.sidebar} ${props.className} ${
@@ -155,7 +160,7 @@ export function SideBar(props: { className?: string }) {
     >
       <div className={styles["sidebar-header"]} data-tauri-drag-region>
         <div className={styles["sidebar-title"]} data-tauri-drag-region>
-          MC的GPT-4o
+          MC的GPT-4o{currentDomain}
         </div>
         <div className={styles["sidebar-sub-title"]}>
               
