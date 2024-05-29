@@ -147,6 +147,10 @@ export function SideBar(props: { className?: string }) {
 
 // 输出当前域名
   console.log(currentDomain);
+  let aname = '明超'
+  if(currentDomain == 'gpt4o.chenmingchao.cn'){
+    aname = '帅华'
+  }
 
   return (
     <div
@@ -160,7 +164,7 @@ export function SideBar(props: { className?: string }) {
     >
       <div className={styles["sidebar-header"]} data-tauri-drag-region>
         <div className={styles["sidebar-title"]} data-tauri-drag-region>
-          MC的GPT-4o{currentDomain}
+          {aname}的GPT-4o
         </div>
         <div className={styles["sidebar-sub-title"]}>
               

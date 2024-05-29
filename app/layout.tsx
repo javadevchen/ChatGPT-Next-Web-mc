@@ -12,7 +12,7 @@ const serverConfig = getServerSideConfig();
 
 
 export const metadata: Metadata = {
-  title: "MC的GPT-4o",
+  title: "GPT-4o",
   description: "Your personal ChatGPT Chat Bot.",
   viewport: {
     width: "device-width",
