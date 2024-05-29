@@ -9,13 +9,10 @@ import { getServerSideConfig } from "./config/server";
 import { GoogleTagManager } from "@next/third-parties/google";
 const serverConfig = getServerSideConfig();
 // 获取当前的访问域名
-var currentDomain = window.location.hostname;
 
-// 输出当前域名
-console.log(currentDomain);
 
 export const metadata: Metadata = {
-  title: "MC的GPT-4o"+currentDomain,
+  title: "MC的GPT-4o",
   description: "Your personal ChatGPT Chat Bot.",
   viewport: {
     width: "device-width",
