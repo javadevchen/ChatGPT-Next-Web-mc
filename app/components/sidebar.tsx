@@ -150,6 +150,8 @@ export function SideBar(props: { className?: string }) {
   let aname = '明超'
   if(currentDomain == 'gpt4o.chenmingchao.cn'){
     aname = '帅华'
+  }else if(currentDomain == 'zhuangzhuang.chenmingchao.cn'){
+    aname = '壮壮'
   }
 
   return (
