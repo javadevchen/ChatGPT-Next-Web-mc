@@ -152,6 +152,8 @@ export function SideBar(props: { className?: string }) {
     aname = '帅华'
   }else if(currentDomain == 'zhuangzhuang.chenmingchao.cn'){
     aname = '壮壮'
+  }else if(currentDomain == 'gpt4o.pangshuhua.cn'){
+    aname = '宝子'
   }
 
   return (
